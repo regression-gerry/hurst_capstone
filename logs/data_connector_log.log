@@ -1,0 +1,8 @@
+2022-09-03 09:59:50,112 DEBUG    Starting new HTTPS connection (1): ftx.com:443
+2022-09-03 09:59:50,659 DEBUG    https://ftx.com:443 "GET /api/markets/BTC/USD/candles?resolution=14400&start_time=1633017600.0&end_time=1643817600.0 HTTP/1.1" 200 None
+2022-09-03 10:39:30,365 DEBUG    Starting new HTTPS connection (1): ftx.com:443
+2022-09-03 10:39:30,809 DEBUG    https://ftx.com:443 "GET /api/markets/BTC/USD/candles?resolution=1800&start_time=1609430400.0&end_time=1659283200.0 HTTP/1.1" 400 58
+2022-09-03 10:40:41,906 DEBUG    Starting new HTTPS connection (1): ftx.com:443
+2022-09-03 10:40:42,182 DEBUG    https://ftx.com:443 "GET /api/markets/BTC/USD/candles?resolution=1800&start_time=1609430400.0&end_time=1624982400.0 HTTP/1.1" 400 58
+2022-09-03 10:41:22,331 DEBUG    Starting new HTTPS connection (1): ftx.com:443
+2022-09-03 10:41:22,590 DEBUG    https://ftx.com:443 "GET /api/markets/BTC/USD/candles?resolution=1800&start_time=1609430400.0&end_time=1612108800.0 HTTP/1.1" 400 58

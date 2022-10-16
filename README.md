@@ -3,11 +3,14 @@
 Python version: `3.9.13`
 
 ## Environment Management
-To update/create environment.yaml from current active conda environment, run:  
+To update/create environment.yml from current active conda environment, run:  
 `conda env export | grep -v "^prefix: " > environment.yml`  
 
-To create environment from existing environment.yaml file run:  
+To create environment from existing environment.yml file run:  
 `conda env create -f environment.yml`  
+
+To update existing environment named "capstone" with environment.yml, run:
+`conda env update --name capstone --file environment.yml --prune`
 
 To activate environment, run:  
 `conda activate capstone`  

@@ -1,5 +1,6 @@
 name: capstone
 channels:
+  - jiayi_anaconda
   - defaults
 dependencies:
   - asttokens=2.0.5=pyhd3eb1b0_0
@@ -71,6 +72,7 @@ dependencies:
   - packaging=21.3=pyhd3eb1b0_0
   - pandas=1.4.4=py39hd77b12b_0
   - parso=0.8.3=pyhd3eb1b0_0
+  - patsy=0.5.2=py39haa95532_1
   - pcre=8.45=hd77b12b_0
   - pickleshare=0.7.5=pyhd3eb1b0_1003
   - pillow=9.2.0=py39hdc2b20a_1
@@ -102,6 +104,7 @@ dependencies:
   - six=1.16.0=pyhd3eb1b0_1
   - sqlite=3.39.3=h2bbff1b_0
   - stack_data=0.2.0=pyhd3eb1b0_0
+  - statsmodels=0.13.2=py39h2bbff1b_0
   - tk=8.6.12=h2bbff1b_0
   - toml=0.10.2=pyhd3eb1b0_0
   - tornado=6.2=py39h2bbff1b_0
@@ -118,3 +121,5 @@ dependencies:
   - zeromq=4.3.4=hd77b12b_0
   - zlib=1.2.12=h8cc25b3_3
   - zstd=1.5.2=h19a0ad4_0
+  - pip:
+    - matplotlib==3.2.2

@@ -1,5 +1,6 @@
 name: capstone
 channels:
+  - conda-forge
   - jiayi_anaconda
   - defaults
 dependencies:
@@ -20,6 +21,7 @@ dependencies:
   - cycler=0.11.0=pyhd3eb1b0_0
   - debugpy=1.5.1=py39hd77b12b_0
   - decorator=5.1.1=pyhd3eb1b0_0
+  - dill=0.3.6=pyhd8ed1ab_1
   - entrypoints=0.4=py39haa95532_0
   - executing=0.8.3=pyhd3eb1b0_0
   - fftw=3.3.9=h2bbff1b_1
@@ -69,6 +71,7 @@ dependencies:
   - numpy-base=1.23.1=py39hca35cd5_0
   - openssl=1.1.1q=h2bbff1b_0
   - packaging=21.3=pyhd3eb1b0_0
+  - pandarallel=1.6.1=pyhd8ed1ab_0
   - pandas=1.4.4=py39hd77b12b_0
   - parso=0.8.3=pyhd3eb1b0_0
   - patsy=0.5.2=py39haa95532_1
@@ -121,7 +124,6 @@ dependencies:
   - zstd=1.5.2=h19a0ad4_0
   - pip:
     - dateparser==1.1.2
-    - dill==0.3.6
     - hurst==0.0.5
     - imageio==2.22.2
     - ipywidgets==8.0.2
@@ -143,3 +145,4 @@ dependencies:
     - tzlocal==4.2
     - vectorbt==0.24.2
     - widgetsnbextension==4.0.3
+prefix: C:\anaconda3\envs\capstone

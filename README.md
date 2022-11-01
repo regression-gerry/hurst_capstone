@@ -1,4 +1,5 @@
-# hurst_capstone
+# Group 40: WorldQuant University
+# Source code for 'Application of Hurst exponent in the Crytocurrencies Markets'
 
 Python version: `3.9.13`
 

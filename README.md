@@ -32,14 +32,15 @@ To pull changes from main into your local branch, then push to your remote branc
 5. `git push -f`
 
 ## dao
-- data pull code to be refactored
+- data_pull.py: script to pull data from CoinAPI
+
+## data
+- overall.pkl: overall spot data for coins
+- perp_overall: perpetual data for coins
 
 ## notebooks
-- test data pull code
-- rescaled range analysis
+- data_pulling_test.ipynb: testing API pulls
+- rescaled_range_analysis.ipynb: Strategy Building and rolling Hurst exponent tested here
 
-## sqlite
-- test on loading pickle files to sqlite db
 
-## other folders
-- misc items
+
